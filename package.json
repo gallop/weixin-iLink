@@ -1,0 +1,28 @@
+{
+  "name": "weixin-clawbot",
+  "version": "1.0.0",
+  "description": "基于微信 ClawBot 插件 (iLink Bot API) 的机器人",
+  "type": "module",
+  "scripts": {
+    "login": "node scripts/login.js",
+    "test": "node scripts/test-connection.js",
+    "start": "node scripts/test-connection.js",
+    "send": "node scripts/send-message.js"
+  },
+  "keywords": [
+    "wechat",
+    "weixin",
+    "bot",
+    "clawbot",
+    "ilink"
+  ],
+  "author": "",
+  "license": "MIT",
+  "optionalDependencies": {
+    "open": "^10.0.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}

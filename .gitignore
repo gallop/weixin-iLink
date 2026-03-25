@@ -1,0 +1,19 @@
+# 依赖
+node_modules/
+
+# 微信凭证 (敏感!)
+.weixin-credentials.json
+.weixin-context-tokens.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志
+*.log
